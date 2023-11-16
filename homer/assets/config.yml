@@ -1,0 +1,307 @@
+---
+# Homepage configuration
+# See https://fontawesome.com/v5/search for icons options
+
+title: "Home"
+subtitle: "Homer"
+logo: "logo.png"
+#icon: "fas fa-skull-crossbones" # Optional icon
+
+header: true
+footer: '<p>Created with <span class="has-text-danger">❤️</span> with <a href="https://bulma.io/">bulma</a>, <a href="https://vuejs.org/">vuejs</a> & <a href="https://fontawesome.com/">font awesome</a> // Fork me on <a href="https://github.com/bastienwirtz/homer"><i class="fab fa-github-alt"></i></a></p>' # set false if you want to hide it.
+
+# Optional theme customization
+theme: default
+colors:
+  light:
+    highlight-primary: "#3367d6"
+    highlight-secondary: "#4285f4"
+    highlight-hover: "#5a95f5"
+    background: "#f5f5f5"
+    card-background: "#ffffff"
+    text: "#363636"
+    text-header: "#ffffff"
+    text-title: "#303030"
+    text-subtitle: "#424242"
+    card-shadow: rgba(0, 0, 0, 0.1)
+    link: "#3273dc"
+    link-hover: "#363636"
+  dark:
+    highlight-primary: "#3367d6"
+    highlight-secondary: "#4285f4"
+    highlight-hover: "#5a95f5"
+    background: "#131313"
+    card-background: "#2b2b2b"
+    text: "#eaeaea"
+    text-header: "#ffffff"
+    text-title: "#fafafa"
+    text-subtitle: "#f5f5f5"
+    card-shadow: rgba(0, 0, 0, 0.4)
+    link: "#3273dc"
+    link-hover: "#ffdd57"
+
+# Optional message
+# message:
+#   #url: https://b4bz.io
+#   style: "is-dark" # See https://bulma.io/documentation/components/message/#colors for styling options.
+#   title: "Demo !"
+#   icon: "fa fa-grin"
+#   content: "This is a dummy homepage demo. <br /> Find more information on <a href='https://github.com/bastienwirtz/homer'>github.com/bastienwirtz/homer</a>"
+
+# Optional navbar
+# links: [] # Allows for navbar (dark mode, layout, and search) without any links
+links:
+  - name: "Hacker News"
+    icon: "fas fa-book"
+    url: "https://news.ycombinator.com/"
+  - name: "Reddit"
+    icon: "fas fa-reddit"
+    url: "https://old.reddit.com/"
+  - name: "Github"
+    icon: "fas fa-github"
+    url: "https://github.com/devoopes?tab=repositories"
+  # this will link to a second homer page that will load config from additional-page.yml and keep default config values as in config.yml file
+  # see url field and assets/additional-page.yml.dist used in this example:
+  #- name: "another page!"
+  #  icon: "fas fa-file-alt"
+  #  url: "#additional-page" 
+
+# Services
+# First level array represent a group.
+# Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
+      # - name: "Awesome app"
+      #   logo: "assets/tools/sample.png"
+      #   subtitle: "Bookmark example"
+      #   tag: "app"
+      #   keywords: "self hosted reddit"
+      #   url: "https://www.reddit.com/r/selfhosted/"
+      #   target: "_blank" # optional html a tag target attribute
+services:
+  - name: "Media"
+    icon: "fas fa-cog"
+    items:
+      - name: "Plex"
+        logo: "assets/icons/plex.png"
+        subtitle: "Plex"
+        tag: "app"
+        keywords: "Plex"
+        url: "https://app.plex.tv/desktop/#!/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "ruTorrent"
+        logo: "assets/icons/rutorrent.png"
+        subtitle: "Torrent Portal"
+        tag: "app"
+        keywords: "torrent"
+        url: "https://dash.cloud.seedboxes.cc/rutorrent/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Seedboxes.cc"
+        logo: "assets/icons/webtorrent.png"
+        subtitle: "Seedbox"
+        tag: "service"
+        keywords: "torrent"
+        url: "https://seedboxes.cc/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "AudioBookShelf"
+        logo: "assets/icons/audiobookshelf.png"
+        subtitle: "Books"
+        tag: "app"
+        keywords: "Books"
+        url: "http://audio.ulation.com:13378/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Kavita"
+        logo: "assets/icons/kavita.png"
+        subtitle: "Books"
+        tag: "app"
+        keywords: "Books"
+        url: "http://192.168.1.20:5000"
+        target: "_blank" # optional html a tag target attribute
+  - name: "Home"
+    icon: "fas fa-home"
+    items:
+      - name: "Home Assistant"
+        logo: "assets/icons/home-assistant.png"
+        subtitle: "Home Automation"
+        tag: "app"
+        keywords: "Home Assistant"
+        url: "http://192.168.1.20:8123/lovelace"
+        target: "_blank" # optional html a tag target attribute
+      - name: "radarr"
+        logo: "assets/icons/radarr.png"
+        subtitle: "media"
+        tag: "app"
+        keywords: "radarr"
+        url: "http://192.168.1.20:7878/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "sonarr"
+        logo: "assets/icons/sonarr.png"
+        subtitle: "media"
+        tag: "app"
+        keywords: "sonarr"
+        url: "http://192.168.1.20:8989"
+        target: "_blank" # optional html a tag target attribute
+      - name: "readarr"
+        logo: "assets/icons/readarr.png"
+        subtitle: "media"
+        tag: "app"
+        keywords: "readarr"
+        url: "http://192.168.1.20:8787"
+        target: "_blank" # optional html a tag target attribute
+      - name: "FreshRSS"
+        logo: "assets/icons/freshrss.png"
+        subtitle: "RSS"
+        tag: "app"
+        keywords: "FreshRSS"
+        url: "http://192.168.1.20:5005"
+        target: "_blank" # optional html a tag target attribute
+      - name: "RSS-Bridge"
+        logo: "assets/icons/rss-bridge.png"
+        subtitle: "media"
+        tag: "app"
+        keywords: "rss-bridge"
+        url: "http://192.168.1.20:3000"
+        target: "_blank" # optional html a tag target attribute
+  - name: "Feeds"
+    icon: "fas fa-cloud"
+    items:
+      - name: "Weather"
+        location: "Long Beach" # your location.
+        locationId: "5367929" # Optional: Specify OpenWeatherMap city ID for better accuracy
+        apikey: "712f57b1d6ec8b4ec6ec7044127a6f21" # insert your own API key here. Request one from https://openweathermap.org/api.
+        units: "imperial" # units to display temperature. Can be one of: metric, imperial, kelvin. Defaults to kelvin.
+        background: "square" # choose which type of background you want behind the image. Can be one of: square, circle, none. Defaults to none.
+        type: "OpenWeather"
+      - name: "Weather"
+        location: "Lake Isabella" # your location.
+        locationId: "5364554" # Optional: Specify OpenWeatherMap city ID for better accuracy
+        apikey: "712f57b1d6ec8b4ec6ec7044127a6f21" # insert your own API key here. Request one from https://openweathermap.org/api.
+        units: "imperial" # units to display temperature. Can be one of: metric, imperial, kelvin. Defaults to kelvin.
+        background: "square" # choose which type of background you want behind the image. Can be one of: square, circle, none. Defaults to none.
+        type: "OpenWeather"
+      - name: "Weather"
+        location: "Cedar City" # your location.
+        locationId: "5536630" # Optional: Specify OpenWeatherMap city ID for better accuracy
+        apikey: "712f57b1d6ec8b4ec6ec7044127a6f21" # insert your own API key here. Request one from https://openweathermap.org/api.
+        units: "imperial" # units to display temperature. Can be one of: metric, imperial, kelvin. Defaults to kelvin.
+        background: "square" # choose which type of background you want behind the image. Can be one of: square, circle, none. Defaults to none.
+        type: "OpenWeather"
+  - name: "Notes/Code"
+    icon: "fas fa-cloud"
+    items:
+      - name: "Joplin"
+        logo: "assets/icons/joplin.png"
+        subtitle: "Notes"
+        tag: "app"
+        keywords: "Joplin"
+        url: "http://joplin.xnow.org/login"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Snippet-Box"
+        logo: "assets/icons/snippetbox.png"
+        subtitle: "Notes"
+        tag: "app"
+        keywords: "Snippet"
+        url: "http://192.168.1.20:5000/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Code-Server"
+        logo: "assets/icons/code.png"
+        subtitle: "Code"
+        tag: "app"
+        keywords: "Code"
+        url: "http://192.168.1.20:8443"
+        target: "_blank" # optional html a tag target attribute
+  - name: "LocalServices"
+    icon: "fas fa-cog"
+    items:
+      - name: "Synology"
+        logo: "assets/icons/synology.png"
+        tag: "infra"
+        keywords: "Storage"
+        url: "http://192.168.1.11:5000/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Octopi"
+        logo: "assets/icons/octoprint.png"
+        tag: "infra"
+        keywords: "OctoPi"
+        url: "https://192.168.1.183"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Tiltpi"
+        logo: "assets/icons/tilt.png"
+        tag: "infra"
+        keywords: "Titl"
+        url: "http://#"
+        target: "_blank" # optional html a tag target attribute
+  - name: "Monitoring"
+    icon: "fas fa-cloud"
+    items:
+      - name: "Netdata"
+        logo: "assets/icons/netdata.png"
+        subtitle: "NetData"
+        tag: "monitoring"
+        keywords: "torrent"
+        url: "https://192.168.1.20:19999"
+        target: "_blank" # optional html a tag target attribute
+  - name: "Web"
+    icon: "fas fa-cloud"
+    items:
+      - name: "Dreamhost"
+        logo: "assets/icons/airsonic.png"
+        subtitle: "Torrent Portal"
+        tag: "web"
+        keywords: "torrent"
+        url: "https://dash.cloud.seedboxes.cc/rutorrent/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Cloudflare"
+        logo: "assets/icons/cloudflare.png"
+        subtitle: "Proxy"
+        tag: "web"
+        keywords: "torrent"
+        url: "https://dash.cloudflare.com/login"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Ulation.com"
+        logo: "assets/tools/sample.png"
+        subtitle: "Ulation.com"
+        tag: "web"
+        keywords: "Self"
+        url: "https://ulation.com"
+        target: "_blank" # optional html a tag target attribute
+  - name: "Network"
+    icon: "fas fa-cog"
+    items:
+      - name: "opnSense"
+        logo: "assets/icons/opnsense.png"
+        tag: "infra"
+        keywords: "Router"
+        url: "https://192.168.1.1"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Netgear 24 PoE"
+        logo: "assets/icons/netgear.png"
+        tag: "infra"
+        keywords: "Switch"
+        url: "http://192.168.1.4"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Aruba 205"
+        logo: "assets/icons/hp.png"
+        tag: "infra"
+        keywords: "AP"
+        url: "https://192.168.1.5"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Aruba 505"
+        logo: "assets/icons/hp.png"
+        tag: "infra"
+        keywords: "AP"
+        url: "https://192.168.1.7"
+        target: "_blank" # optional html a tag target attribute
+  - name: "Offline"
+    icon: "fas fa-cog"
+    items:  
+      - name: "Netgear 8 PoE"
+        logo: "assets/icons/netgear.png"
+        tag: "infra"
+        keywords: "Switch"
+        url: "https://192.168.1.2"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Netgear 8 PoE"
+        logo: "assets/icons/netgear.png"
+        tag: "infra"
+        keywords: "Switch"
+        url: "https://192.168.1.3"
+        target: "_blank" # optional html a tag target attribute
