@@ -1,0 +1,15 @@
+version: "2.1"
+services:
+  freshrss:
+    image: freshrss/freshrss:latest
+    container_name: freshrss
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Etc/PST
+    volumes:
+      - /home/sean/docker/freshrss/:/config
+    ports:
+      - 5005:80
+    restart: unless-stopped
+networks: {}

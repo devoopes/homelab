@@ -1,0 +1,46 @@
+# Enviroments
+
+# Kavita
+kavita/data/*
+
+# Plex
+plex/Library/*
+
+# Radarr
+radarr/radarr*
+radarr/logs*
+radarr/Backups/*
+radarr/asp/*
+backups/*
+Backups/*
+
+# Homer
+homer/assets/*
+
+# Home Assistant
+homeassistant/blueprints/*
+
+# Dockge
+dockge/data/*
+
+# Mac
+.DS_Store
+._.DS_Store
+
+# Windows
+Thumbs.db
+
+# vi & vscode
+*~
+._compose.yaml
+
+# General
+*.storage
+*.env
+log/
+*.log
+*.log.*
+*.old
+*.zip
+*.tar.gz
+*.db
