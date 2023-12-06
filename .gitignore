@@ -49,6 +49,8 @@ Thumbs.db
 ._compose.yaml
 
 # General
+*.bak
+*.backup
 *.storage
 *.env
 log/
