@@ -1,0 +1,7 @@
+version: "3.3"
+services:
+  ml-workspace:
+    ports:
+      - 8888:8080
+    image: mltooling/ml-workspace:latest
+networks: {}

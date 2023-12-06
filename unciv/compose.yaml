@@ -1,0 +1,8 @@
+version: "3.3"
+services:
+  unciv:
+    ports:
+      - 6901:6901
+      - 5901:5901
+    image: ghcr.io/yairm210/unciv
+networks: {}

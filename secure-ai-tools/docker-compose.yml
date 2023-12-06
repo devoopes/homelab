@@ -1,0 +1,34 @@
+version: "3.8"
+
+services:
+  web:
+    image: public.ecr.aws/d8f2p0h3/secure-ai-tools:latest
+    platform: linux/amd64
+    volumes:
+      - ./web:/app/volume
+    env_file:
+      - .env
+    environment:
+      - INFERENCE_SERVER=http://inference:11434/
+    ports:
+      - 28669:28669
+    command: sh -c "cd /app && sh tools/db-migrate-and-seed.sh ${DATABASE_FILE} && node server.js"
+    depends_on:
+      - inference
+
+  inference:
+    image: ollama/ollama:latest
+    volumes:
+      - ./inference:/root/.ollama
+    #
+    # Uncomment for Linux machines with Nvidia GPUs
+    # Based on https://docs.docker.com/compose/gpu-support/
+    # Requires Nvidia container toolkit: https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html#installation
+    #
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices:
+    #         - driver: nvidia
+    #           count: 'all'
+    #           capabilities: [gpu]

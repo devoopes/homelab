@@ -1,0 +1,12 @@
+version: "3.7"
+services:
+  audiobookshelf:
+    image: ghcr.io/advplyr/audiobookshelf:latest
+    ports:
+      - 13378:80
+    volumes:
+      - /home/sean/docker/audiobookshelf/audiobooks/:/audiobooks
+      - /home/sean/docker/audiobookshelf/podcasts/:/podcasts
+      - /home/sean/docker/audiobookshelf/:/config
+      - /home/sean/docker/audiobookshelf/metadata/:/metadata
+networks: {}
