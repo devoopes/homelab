@@ -15,7 +15,7 @@ services:
       - DEFAULT_WORKSPACE=/config/workspace #optional
     volumes:
       - /path/to/appdata/config:/config
-      - /home/sean/docker/homer/assets/:/config/homer
+      - /opt/stacks/homer/assets/:/config/homer
     ports:
       - 8443:8443
     restart: unless-stopped

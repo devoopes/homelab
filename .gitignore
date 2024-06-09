@@ -1,41 +1,22 @@
-# Enviroments
-
-# Stable Difussion
-stable-diffusion-webui-docker
-stable-diffusion-webui-docker/*
-
-# Audiobook Shelf
-audiobookshelf/audiobooks
-audiobookshelf/podcasts
-audiobookshelf/metadata
-
-# Kavita
-kavita/data/*
-
-# Plex
-plex/Library/*
-
-# Radarr
-radarr/radarr*
-radarr/logs*
-radarr/Backups/*
-radarr/asp/*
-backups/*
-Backups/*
-
-# Homer
-#homer/assets/*
-
-# Home Assistant
-homeassistant/blueprints/*
+# /opt/
+containerd
 
 # Dockge
-dockge/data/*
+dockge/data/
 
-# Tandor
-tandor/postgresql/
-tandor/mediafiles
-tandor/mediafiles/recipes/*.jpg
+# Factorio
+factorio/bin
+factorio/data/*
+!factorio/data/server-settings.json
+factorio/mods/*.zip
+factorio/saves
+factorio/temp
+factorio/update
+
+# Homer
+homer/assets/*
+stacks/homer/assets/
+homer/Dashboard-Icons-main/
 
 # Mac
 .DS_Store

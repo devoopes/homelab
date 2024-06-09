@@ -1,0 +1,38 @@
+# Enviroments
+
+# Valheim
+game-valheim
+
+# Stable Difussion
+stable-diffusion-webui-docker
+stable-diffusion-webui-docker/*
+
+# Audiobook Shelf
+audiobookshelf/audiobooks
+audiobookshelf/podcasts
+audiobookshelf/metadata
+
+# Kavita
+kavita/data/*
+
+# Plex
+plex/Library/*
+
+# Radarr
+radarr/radarr*
+radarr/logs*
+radarr/Backups/*
+radarr/asp/*
+backups/*
+Backups/*
+
+# Home Assistant
+homeassistant/blueprints/*
+
+# Dockge
+dockge/data/*
+
+# Tandor
+tandor/postgresql/
+tandor/mediafiles
+tandor/mediafiles/recipes/*.jpg

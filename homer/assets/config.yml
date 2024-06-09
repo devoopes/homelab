@@ -77,30 +77,6 @@ links:
       #   url: "https://www.reddit.com/r/selfhosted/"
       #   target: "_blank" # optional html a tag target attribute
 services:
-  - name: "Home"
-    icon: "fas fa-home"
-    items:
-      - name: "Home Assistant"
-        logo: "assets/icons/home-assistant.png"
-        subtitle: "Home Automation"
-        tag: "app"
-        keywords: "Home Assistant"
-        url: "http://192.168.1.20:8123/lovelace"
-        target: "_blank" # optional html a tag target attribute
-      - name: "Tandoor"
-        logo: "assets/icons/tandoorrecipes.png"
-        subtitle: "Recipe"
-        tag: "app"
-        keywords: "Recipe"
-        url: "http://192.168.1.20:4321/"
-        target: "_blank" # optional html a tag target attribute
-      - name: "Paperless-ngx"
-        logo: "assets/icons/paperless-ng.png"
-        subtitle: "Notes"
-        tag: "app"
-        keywords: "Paperless"
-        url: "http://192.168.1.20:8000"
-        target: "_blank" # optional html a tag target attribute
   - name: "Media"
     icon: "fas fa-cog"
     items:
@@ -119,10 +95,10 @@ services:
         url: "https://dash.cloud.seedboxes.cc/rutorrent/"
         target: "_blank" # optional html a tag target attribute
       - name: "Seedboxes.cc"
-        logo: "assets/icons/seedboxescc.png"
+        logo: "assets/icons/webtorrent.png"
         subtitle: "Seedbox"
         tag: "service"
-        keywords: "Web,torrent"
+        keywords: "torrent"
         url: "https://seedboxes.cc/"
         target: "_blank" # optional html a tag target attribute
       - name: "AudioBookShelf"
@@ -139,103 +115,16 @@ services:
         keywords: "Books"
         url: "http://192.168.1.20:5000"
         target: "_blank" # optional html a tag target attribute
-  - name: "Weather"
-    icon: "fas fa-cloud"
+  - name: "Home"
+    icon: "fas fa-home"
     items:
-      - name: "Weather"  # insert your own API key here. Request one from https://openweathermap.org/api.
-        location: "Long Beach" # your location.
-        locationId: "5367929" # Optional: Specify OpenWeatherMap city ID for better accuracy
-        units: "imperial" # units to display temperature. Can be one of: metric, imperial, kelvin. Defaults to kelvin.
-        background: "square" # choose which type of background you want behind the image. Can be one of: square, circle, none. Defaults to none.
-        type: "OpenWeather"
-      - name: "Weather"
-        location: "Los Angeles" # your location.
-        locationId: "5368361" # Optional: Specify OpenWeatherMap city ID for better accuracy
-        units: "imperial" # units to display temperature. Can be one of: metric, imperial, kelvin. Defaults to kelvin.
-        background: "square" # choose which type of background you want behind the image. Can be one of: square, circle, none. Defaults to none.
-        type: "OpenWeather"
-      - name: "Weather"
-        location: "Onyx/Weldon" # your location.
-        locationId: "5407744" # Optional: Specify OpenWeatherMap city ID for better accuracy
-        units: "imperial" # units to display temperature. Can be one of: metric, imperial, kelvin. Defaults to kelvin.
-        background: "square" # choose which type of background you want behind the image. Can be one of: square, circle, none. Defaults to none.
-        type: "OpenWeather"
-      - name: "Weather"
-        location: "Kernville" # your location.
-        locationId: "5362994" # Optional: Specify OpenWeatherMap city ID for better accuracy
-        units: "imperial" # units to display temperature. Can be one of: metric, imperial, kelvin. Defaults to kelvin.
-        background: "square" # choose which type of background you want behind the image. Can be one of: square, circle, none. Defaults to none.
-        type: "OpenWeather"
-      - name: "Weather"
-        location: "Cedar City" # your location.
-        locationId: "5536630" # Optional: Specify OpenWeatherMap city ID for better accuracy
-        units: "imperial" # units to display temperature. Can be one of: metric, imperial, kelvin. Defaults to kelvin.
-        background: "square" # choose which type of background you want behind the image. Can be one of: square, circle, none. Defaults to none.
-        type: "OpenWeather"
-      - name: "Weather"
-        location: "Chicago" # your location.
-        locationId: "4887398" # Optional: Specify OpenWeatherMap city ID for better accuracy
-        units: "imperial" # units to display temperature. Can be one of: metric, imperial, kelvin. Defaults to kelvin.
-        background: "square" # choose which type of background you want behind the image. Can be one of: square, circle, none. Defaults to none.
-        type: "OpenWeather"
-  - name: "Notes"
-    icon: "fas fa-cloud"
-    items:
-      - name: "Dockge"
-        logo: "assets/icons/dockge.png"
-        subtitle: "docker"
+      - name: "Home Assistant"
+        logo: "assets/icons/home-assistant.png"
+        subtitle: "Home Automation"
         tag: "app"
-        keywords: "socker"
-        url: "http://192.168.1.20:5001/"
+        keywords: "Home Assistant"
+        url: "http://192.168.1.20:8123/lovelace"
         target: "_blank" # optional html a tag target attribute
-      - name: "Joplin"
-        logo: "assets/icons/joplin.png"
-        subtitle: "Notes"
-        tag: "app"
-        keywords: "Joplin"
-        url: "http://joplin.xnow.org/login"
-        target: "_blank" # optional html a tag target attribute
-      - name: "Snippet-Box"
-        logo: "assets/icons/snippetbox.png"
-        subtitle: "Notes"
-        tag: "app"
-        keywords: "Snippet"
-        url: "http://192.168.1.20:5555"
-        target: "_blank" # optional html a tag target attribute
-  - name: "Code"
-    icon: "fas fa-cloud"
-    items:
-      - name: "Code-Server"
-        logo: "assets/icons/code.png"
-        subtitle: "Code"
-        tag: "app"
-        keywords: "Code"
-        url: "http://192.168.1.20:8443"
-        target: "_blank" # optional html a tag target attribute
-      - name: "ML Workspace"
-        logo: "assets/icons/ml-workspace-logo.png"
-        subtitle: "Code"
-        tag: "app"
-        keywords: "Code"
-        url: "http://192.168.1.20:8888"
-        target: "_blank" # optional html a tag target attribute
-      - name: "Stable Diffusion"
-        logo: "assets/icons/stablediffusion.png"
-        subtitle: "AI"
-        tag: "app"
-        keywords: "Code"
-        url: "http://192.168.1.20:7860"
-        target: "_blank" # optional html a tag target attribute
-      - name: "SecureAI Tools"
-        logo: "assets/icons/secureai.jpg"
-        subtitle: "AI"
-        tag: "app"
-        keywords: "Code"
-        url: "http://192.168.1.20:28669/log-in"
-        target: "_blank" # optional html a tag target attribute 
-  - name: "Feeders/RSS"
-    icon: "fas fa-cloud"
-    items:
       - name: "radarr"
         logo: "assets/icons/radarr.png"
         subtitle: "media"
@@ -250,26 +139,53 @@ services:
         keywords: "sonarr"
         url: "http://192.168.1.20:8989"
         target: "_blank" # optional html a tag target attribute
-      - name: "readarr"
-        logo: "assets/icons/readarr.png"
-        subtitle: "media"
+  - name: "Feeds"
+    icon: "fas fa-cloud"
+    items:
+      - name: "Weather"
+        location: "Long Beach" # your location.
+        locationId: "5367929" # Optional: Specify OpenWeatherMap city ID for better accuracy
+        apikey: "712f57b1d6ec8b4ec6ec7044127a6f21" # insert your own API key here. Request one from https://openweathermap.org/api.
+        units: "imperial" # units to display temperature. Can be one of: metric, imperial, kelvin. Defaults to kelvin.
+        background: "square" # choose which type of background you want behind the image. Can be one of: square, circle, none. Defaults to none.
+        type: "OpenWeather"
+      - name: "Weather"
+        location: "Lake Isabella" # your location.
+        locationId: "5364554" # Optional: Specify OpenWeatherMap city ID for better accuracy
+        apikey: "712f57b1d6ec8b4ec6ec7044127a6f21" # insert your own API key here. Request one from https://openweathermap.org/api.
+        units: "imperial" # units to display temperature. Can be one of: metric, imperial, kelvin. Defaults to kelvin.
+        background: "square" # choose which type of background you want behind the image. Can be one of: square, circle, none. Defaults to none.
+        type: "OpenWeather"
+      - name: "Weather"
+        location: "Cedar City" # your location.
+        locationId: "5536630" # Optional: Specify OpenWeatherMap city ID for better accuracy
+        apikey: "712f57b1d6ec8b4ec6ec7044127a6f21" # insert your own API key here. Request one from https://openweathermap.org/api.
+        units: "imperial" # units to display temperature. Can be one of: metric, imperial, kelvin. Defaults to kelvin.
+        background: "square" # choose which type of background you want behind the image. Can be one of: square, circle, none. Defaults to none.
+        type: "OpenWeather"
+  - name: "Notes/Code"
+    icon: "fas fa-cloud"
+    items:
+      - name: "Joplin"
+        logo: "assets/icons/joplin.png"
+        subtitle: "Notes"
         tag: "app"
-        keywords: "readarr"
-        url: "http://192.168.1.20:8787"
+        keywords: "Joplin"
+        url: "http://joplin.xnow.org/login"
         target: "_blank" # optional html a tag target attribute
-      - name: "FreshRSS"
-        logo: "assets/icons/freshrss.png"
-        subtitle: "RSS"
+      - name: "Snippet-Box"
+        logo: "assets/icons/snippetbox.png"
+        subtitle: "Notes"
         tag: "app"
-        keywords: "FreshRSS"
-        url: "http://192.168.1.20:5005"
+        keywords: "Snippet"
+        url: "http://192.168.1.20:5000/"
         target: "_blank" # optional html a tag target attribute
-      - name: "RSS-Bridge"
-        logo: "assets/icons/rss-bridge.png"
-        subtitle: "media"
+      - name: "Code-Server"
+        logo: "assets/icons/code.png"
+        subtitle: "Code"
         tag: "app"
-        keywords: "rss-bridge"
-        url: "http://192.168.1.20:3000"
+        keywords: "Code"
+        url: "http://192.168.1.20:8443"
         target: "_blank" # optional html a tag target attribute
   - name: "LocalServices"
     icon: "fas fa-cog"
@@ -289,14 +205,8 @@ services:
       - name: "Tiltpi"
         logo: "assets/icons/tilt.png"
         tag: "infra"
-        keywords: "rpi"
+        keywords: "Titl"
         url: "http://#"
-        target: "_blank" # optional html a tag target attribute
-      - name: "Unciv"
-        logo: "assets/icons/unciv.png"
-        tag: "infra"
-        keywords: "Games"
-        url: "http://192.168.1.20:6901/vnc.html?password=headless"
         target: "_blank" # optional html a tag target attribute
   - name: "Monitoring"
     icon: "fas fa-cloud"
@@ -305,31 +215,31 @@ services:
         logo: "assets/icons/netdata.png"
         subtitle: "NetData"
         tag: "monitoring"
-        keywords: "Monitoring"
-        url: "http://192.168.1.20:19999/spaces/"
+        keywords: "torrent"
+        url: "https://192.168.1.20:19999"
         target: "_blank" # optional html a tag target attribute
   - name: "Web"
     icon: "fas fa-cloud"
     items:
       - name: "Dreamhost"
         logo: "assets/icons/airsonic.png"
-        subtitle: "Web Hosting"
+        subtitle: "Torrent Portal"
         tag: "web"
-        keywords: "Web"
+        keywords: "torrent"
         url: "https://dash.cloud.seedboxes.cc/rutorrent/"
         target: "_blank" # optional html a tag target attribute
       - name: "Cloudflare"
         logo: "assets/icons/cloudflare.png"
         subtitle: "Proxy"
         tag: "web"
-        keywords: "Web"
+        keywords: "torrent"
         url: "https://dash.cloudflare.com/login"
         target: "_blank" # optional html a tag target attribute
       - name: "Ulation.com"
         logo: "assets/tools/sample.png"
         subtitle: "Ulation.com"
         tag: "web"
-        keywords: "Web"
+        keywords: "Self"
         url: "https://ulation.com"
         target: "_blank" # optional html a tag target attribute
   - name: "Network"
@@ -341,17 +251,23 @@ services:
         keywords: "Router"
         url: "https://192.168.1.1"
         target: "_blank" # optional html a tag target attribute
-      - name: "piHole"
-        logo: "assets/icons/pihole.png"
-        tag: "infra"
-        keywords: "Router"
-        url: "http://192.168.1.20:10000/admin/"
-        target: "_blank" # optional html a tag target attribute
-      - name: "Netgear 24 PoE"
+      - name: "Netgear PoE"
         logo: "assets/icons/netgear.png"
         tag: "infra"
         keywords: "Switch"
-        url: "http://192.168.1.4"
+        url: "https://192.168.1.2"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Netgear PoE"
+        logo: "assets/icons/netgear.png"
+        tag: "infra"
+        keywords: "Switch"
+        url: "https://192.168.1.3"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Netgear PoE (Offline)"
+        logo: "assets/icons/netgear.png"
+        tag: "infra"
+        keywords: "Switch"
+        url: "https://192.168.1.4"
         target: "_blank" # optional html a tag target attribute
       - name: "Aruba 205"
         logo: "assets/icons/hp.png"
@@ -364,19 +280,4 @@ services:
         tag: "infra"
         keywords: "AP"
         url: "https://192.168.1.7"
-        target: "_blank" # optional html a tag target attribute
-  - name: "Offline"
-    icon: "fas fa-cog"
-    items:  
-      - name: "Netgear 8 PoE"
-        logo: "assets/icons/netgear.png"
-        tag: "infra"
-        keywords: "Switch"
-        url: "https://192.168.1.2"
-        target: "_blank" # optional html a tag target attribute
-      - name: "Netgear 8 PoE"
-        logo: "assets/icons/netgear.png"
-        tag: "infra"
-        keywords: "Switch"
-        url: "https://192.168.1.3"
         target: "_blank" # optional html a tag target attribute

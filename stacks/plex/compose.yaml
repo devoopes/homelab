@@ -1,4 +1,3 @@
----
 version: "2.1"
 services:
   plex:
@@ -8,12 +7,12 @@ services:
     environment:
       - PUID=1000
       - PGID=1000
-      - TZ=Etc/UTC
+      - TZ=Etc/PST
       - VERSION=docker
-      - PLEX_CLAIM= #optional
+      - PLEX_CLAIM=claim-vvEeszjfNdzFF87dGVs8
     volumes:
-      - /home/sean/docker/plex:/config
+      - /opt/stacks/plex:/config
       - /lake/tv:/tv
       - /lake/movies:/movies
     restart: unless-stopped
-
+networks: {}

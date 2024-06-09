@@ -1,0 +1,506 @@
+
+{
+  "mods": 
+  [
+    
+    {
+      "name": "base",
+      "enabled": true
+    },
+    
+    {
+      "name": "200 Inventory Size",
+      "enabled": true
+    },
+    
+    {
+      "name": "aai-industry",
+      "enabled": true
+    },
+    
+    {
+      "name": "aai-signal-transmission",
+      "enabled": true
+    },
+    
+    {
+      "name": "AfraidOfTheDark",
+      "enabled": false
+    },
+    
+    {
+      "name": "akimbo-weapons",
+      "enabled": false
+    },
+    
+    {
+      "name": "alien-biomes",
+      "enabled": true
+    },
+    
+    {
+      "name": "ArmouredBiters",
+      "enabled": false
+    },
+    
+    {
+      "name": "artillery-bombardment-remote",
+      "enabled": true
+    },
+    
+    {
+      "name": "AtomicArtillery",
+      "enabled": true
+    },
+    
+    {
+      "name": "AutoDeconstruct",
+      "enabled": true
+    },
+    
+    {
+      "name": "automatic-station-painter-continued",
+      "enabled": true
+    },
+    
+    {
+      "name": "Automatic_Coupling_System",
+      "enabled": false
+    },
+    
+    {
+      "name": "Automatic_Train_Painter",
+      "enabled": true
+    },
+    
+    {
+      "name": "BeltRouter",
+      "enabled": false
+    },
+    
+    {
+      "name": "BetterBigElectricPole",
+      "enabled": false
+    },
+    
+    {
+      "name": "BigLightElectricMiningDrill",
+      "enabled": true
+    },
+    
+    {
+      "name": "biter_reincarnation",
+      "enabled": false
+    },
+    
+    {
+      "name": "BotSpeed",
+      "enabled": true
+    },
+    
+    {
+      "name": "BotStart",
+      "enabled": false
+    },
+    
+    {
+      "name": "Bottleneck",
+      "enabled": true
+    },
+    
+    {
+      "name": "bullet-trails",
+      "enabled": true
+    },
+    
+    {
+      "name": "car-finder",
+      "enabled": false
+    },
+    
+    {
+      "name": "ChangeMapSettings",
+      "enabled": false
+    },
+    
+    {
+      "name": "CleanFloor",
+      "enabled": true
+    },
+    
+    {
+      "name": "combat-bot-booster",
+      "enabled": false
+    },
+    
+    {
+      "name": "CopyPasteModules",
+      "enabled": true
+    },
+    
+    {
+      "name": "creative-mod",
+      "enabled": false
+    },
+    
+    {
+      "name": "DiscoScience",
+      "enabled": true
+    },
+    
+    {
+      "name": "EpicArtillerySounds",
+      "enabled": true
+    },
+    
+    {
+      "name": "even-distribution",
+      "enabled": true
+    },
+    
+    {
+      "name": "factorio-reach",
+      "enabled": false
+    },
+    
+    {
+      "name": "factoryplanner",
+      "enabled": true
+    },
+    
+    {
+      "name": "Fill4Me",
+      "enabled": true
+    },
+    
+    {
+      "name": "fireproof-bots",
+      "enabled": true
+    },
+    
+    {
+      "name": "flib",
+      "enabled": true
+    },
+    
+    {
+      "name": "FluidMustFlow",
+      "enabled": false
+    },
+    
+    {
+      "name": "FluidWagonColorMask",
+      "enabled": true
+    },
+    
+    {
+      "name": "FNEI",
+      "enabled": true
+    },
+    
+    {
+      "name": "gun-snRevived",
+      "enabled": true
+    },
+    
+    {
+      "name": "helmod",
+      "enabled": false
+    },
+    
+    {
+      "name": "inbuilt_lighting",
+      "enabled": false
+    },
+    
+    {
+      "name": "increased-landfill-stack",
+      "enabled": false
+    },
+    
+    {
+      "name": "informatron",
+      "enabled": true
+    },
+    
+    {
+      "name": "inserters-googly-eyes",
+      "enabled": true
+    },
+    
+    {
+      "name": "InstanCraftingThings",
+      "enabled": false
+    },
+    
+    {
+      "name": "jetpack",
+      "enabled": true
+    },
+    
+    {
+      "name": "lightorio",
+      "enabled": false
+    },
+    
+    {
+      "name": "LoaderRedux",
+      "enabled": true
+    },
+    
+    {
+      "name": "long-reach-clone",
+      "enabled": true
+    },
+    
+    {
+      "name": "MaxRateCalculator",
+      "enabled": false
+    },
+    
+    {
+      "name": "MegaBotStart",
+      "enabled": true
+    },
+    
+    {
+      "name": "miniloader",
+      "enabled": false
+    },
+    
+    {
+      "name": "MiscLib",
+      "enabled": true
+    },
+    
+    {
+      "name": "ModuleInserter",
+      "enabled": true
+    },
+    
+    {
+      "name": "MultipleUnitTrainControl",
+      "enabled": false
+    },
+    
+    {
+      "name": "OreEraser",
+      "enabled": true
+    },
+    
+    {
+      "name": "PersonalTeleporter",
+      "enabled": false
+    },
+    
+    {
+      "name": "playtime",
+      "enabled": true
+    },
+    
+    {
+      "name": "Power Armor MK3",
+      "enabled": true
+    },
+    
+    {
+      "name": "production-monitor",
+      "enabled": true
+    },
+    
+    {
+      "name": "Quick-Charge-Personal-Bots-Continued-Plus",
+      "enabled": true
+    },
+    
+    {
+      "name": "RampantArsenal",
+      "enabled": false
+    },
+    
+    {
+      "name": "RateCalculator",
+      "enabled": false
+    },
+    
+    {
+      "name": "Robot256Lib",
+      "enabled": false
+    },
+    
+    {
+      "name": "robotarmy",
+      "enabled": false
+    },
+    
+    {
+      "name": "robot_attrition",
+      "enabled": true
+    },
+    
+    {
+      "name": "Robot_Battery_Research",
+      "enabled": true
+    },
+    
+    {
+      "name": "rso-mod",
+      "enabled": false
+    },
+    
+    {
+      "name": "SchallMachineScaling",
+      "enabled": false
+    },
+    
+    {
+      "name": "shield-projector",
+      "enabled": true
+    },
+    
+    {
+      "name": "show-max-underground-distance",
+      "enabled": true
+    },
+    
+    {
+      "name": "Simple_Circuit_Trains",
+      "enabled": false
+    },
+    
+    {
+      "name": "SmallNightvisionRevived",
+      "enabled": true
+    },
+    
+    {
+      "name": "space-exploration",
+      "enabled": true
+    },
+    
+    {
+      "name": "space-exploration-graphics",
+      "enabled": true
+    },
+    
+    {
+      "name": "space-exploration-graphics-2",
+      "enabled": true
+    },
+    
+    {
+      "name": "space-exploration-graphics-3",
+      "enabled": true
+    },
+    
+    {
+      "name": "space-exploration-graphics-4",
+      "enabled": true
+    },
+    
+    {
+      "name": "space-exploration-graphics-5",
+      "enabled": true
+    },
+    
+    {
+      "name": "space-exploration-postprocess",
+      "enabled": true
+    },
+    
+    {
+      "name": "spidertron-fire-steps",
+      "enabled": false
+    },
+    
+    {
+      "name": "Squeak Through",
+      "enabled": true
+    },
+    
+    {
+      "name": "Teleporters",
+      "enabled": true
+    },
+    
+    {
+      "name": "textplates",
+      "enabled": true
+    },
+    
+    {
+      "name": "Todo-List",
+      "enabled": true
+    },
+    
+    {
+      "name": "TogglePeacefulMode",
+      "enabled": false
+    },
+    
+    {
+      "name": "train-pubsub",
+      "enabled": false
+    },
+    
+    {
+      "name": "tree_collision",
+      "enabled": true
+    },
+    
+    {
+      "name": "True-Nukes",
+      "enabled": false
+    },
+    
+    {
+      "name": "Underneathies",
+      "enabled": true
+    },
+    
+    {
+      "name": "Unit_Control",
+      "enabled": false
+    },
+    
+    {
+      "name": "vanilla-loaders-hd",
+      "enabled": false
+    },
+    
+    {
+      "name": "VehicleSnap",
+      "enabled": true
+    },
+    
+    {
+      "name": "VehicleTrails",
+      "enabled": true
+    },
+    
+    {
+      "name": "Warehousing",
+      "enabled": true
+    },
+    
+    {
+      "name": "Waterfill_v17",
+      "enabled": true
+    },
+    
+    {
+      "name": "whats-missing",
+      "enabled": false
+    },
+    
+    {
+      "name": "WhereIsMyBody",
+      "enabled": false
+    },
+    
+    {
+      "name": "wood-to-landfill",
+      "enabled": false
+    }
+  ]
+}
